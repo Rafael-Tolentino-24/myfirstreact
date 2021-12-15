@@ -15,7 +15,7 @@ const Home = () => {
                     
                     <figure class="text-center">
                         <blockquote class="blockquote">
-                            <p>With great <b><i>POWER</i></b> comes great <b><i>ELECTRICITY BILL.</i></b>
+                            <p>With no <b><i>CREDIT CARD</i></b> comes with no <b><i>FULLSTACK APP. :(</i></b>
                             </p>
                         </blockquote>
                         <blockquote class="blockquote">

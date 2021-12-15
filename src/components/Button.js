@@ -10,7 +10,7 @@ class Button extends React.Component {
     addCounter = () => {
         this.setState(
             {
-                count : this.state.count + 1
+                count : this.state.count + 12
             }
         )
     }
@@ -18,7 +18,7 @@ class Button extends React.Component {
     render() {
         return (
             <div>
-                <button class="btn btn-secondary btn-lg" onClick = {this.addCounter}>Spam to give Peter power!</button>
+                <button class="btn btn-secondary btn-lg" onClick = {this.addCounter}>Spam to shoot webs!</button>
                 <p>Power level = {this.state.count}</p>
             </div>
         )

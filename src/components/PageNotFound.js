@@ -1,18 +1,24 @@
+import { useEffect } from 'react';
 import '../App.css';
 
 const PageNotFound = () => {
-    return(
-        <div id="notfound">
-         <figure class="text-center">
-                        <blockquote class="blockquote" id="notfoundtext">
-                        Uh Oh! A Villain is on the loose!
-                        </blockquote>
-                        <figcaption class="blockquote-footer">
-                            Rest assured, superheroes are on the way!
-                        </figcaption>
-                    </figure>
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            window.location.pathname = "/myfirstreact/"
+            console.log("Redirecting to home page...");
+        }, 5000);
+    })
+
+    return (
+        <div>
+        <header className="App-header">
+            <h3>Uh Oh! Someone stole this page!</h3>
+            <p>Try clicking one of the options above</p>
+        </header>
         </div>
     )
+    
 }
 
 export default PageNotFound;
