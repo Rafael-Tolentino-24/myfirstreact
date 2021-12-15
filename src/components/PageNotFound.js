@@ -5,10 +5,10 @@ const PageNotFound = () => {
         <div id="notfound">
          <figure class="text-center">
                         <blockquote class="blockquote" id="notfoundtext">
-                        💔404
+                        Uh Oh! A Villain is on the loose!
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                            Di ko pa rin mahanap kung saan ako nagkulang.
+                            Rest assured, superheroes are on the way!
                         </figcaption>
                     </figure>
         </div>

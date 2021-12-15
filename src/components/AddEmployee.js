@@ -58,13 +58,13 @@ else {
     return (
       <div id="AddNew">
       <div className="container mb-2">
-        <h3 id="addHeader">Add New Employee</h3>
+        <h3 id="addHeader">Add Citizens</h3>
         <form>
           <div className="mb-3">
           <label for="addName" className="form-label">Name</label>
           <input
             type="text"
-            placeholder="Enter name of Employee"
+            placeholder="Enter name of citizen"
             value={name}
             className="form-control"
             id="addName"
@@ -77,7 +77,7 @@ else {
           <input
             type="text"
             value={location}
-            placeholder="Enter location of Employee"
+            placeholder="Enter location of citizen"
             className="form-control"
             id="addLocation"
             onChange={(e) => setLocation(e.target.value)
@@ -87,7 +87,7 @@ else {
           <label for="addDepartment" className="form-label">Department</label>
           <input
             type="text"
-            placeholder="Enter department of Employee"
+            placeholder="Enter department of citizen"
             value={department}
             className="form-control"
             id="addDepartment"

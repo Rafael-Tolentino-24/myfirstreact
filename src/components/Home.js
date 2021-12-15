@@ -15,19 +15,19 @@ const Home = () => {
                     
                     <figure class="text-center">
                         <blockquote class="blockquote">
-                            <p>With great <b><i>POWER</i></b> comes great <b><i>RESPONSIBILITY.</i></b>
+                            <p>With great <b><i>POWER</i></b> comes great <b><i>ELECTRICITY BILL.</i></b>
                             </p>
                         </blockquote>
-                        <figcaption class="blockquote-footer">
-                            Vhong "AgentX44" Navarro
-                        </figcaption>
+                        <blockquote class="blockquote">
+                            - Super Idol Vhong "AgentX44" 热爱105°C
+                        </blockquote>
                     </figure>
                     
                 </p>
                 <Button />
                 <a
                     className="App-link"
-                    href="https://youtu.be/rt-2cxAiPJk"
+                    href="https://youtu.be/aCgP8BFjrw4"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
