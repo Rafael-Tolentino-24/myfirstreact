@@ -29,7 +29,7 @@ const deleteEmployee = (employeeId) => {
     employeeService.deleteEmployee(employeeId)
     .then(
         response => {
-            console.log("Successfully deleted huhu.")
+            console.log("Successfully deleted.")
             refreshTable();
         }
     )
