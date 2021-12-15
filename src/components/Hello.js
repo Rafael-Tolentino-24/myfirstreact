@@ -15,7 +15,7 @@ const Hello = () => {
             setHello(response.data)
         })
         .catch(err => {
-            console.log("API DOWN! REPEAT! API DOWN!!!")
+            console.log("Oops! Something went wrong! :(")
         })
     }
     )
