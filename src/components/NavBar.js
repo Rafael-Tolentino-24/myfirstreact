@@ -1,22 +1,19 @@
 const NavBar = () => {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">ICS2608</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
-                        <a class="nav-item nav-link" href="#">Employees</a>
-                        <a class="nav-item nav-link" href="#">Add Employee</a>
-                        <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    )
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ICS2608</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a className="nav-link" href="/myreact">Home</a>
+        <a className="nav-link" href="/myreact/employee">Employees</a>
+        <a className="nav-link" href="/myreact/add">Add Employee</a>
+        <a className="nav-link disabled" href="/" tabindex="-1" aria-disabled="true">Disabled</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    );
 }
 
-export default NavBar
+export default NavBar;

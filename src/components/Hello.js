@@ -3,12 +3,8 @@ import helloServices from "../services/helloServices";
 
 const Hello = () => {
 
-    //react hooks usestate
     const[hello, setHello] = useState("")
 
-    //react hook useEffect
-    //axios - tool for http request promises
-    //promises - asynchronous processes
     useEffect( () => {
         helloServices.getHello()
         .then(response => {

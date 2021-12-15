@@ -18,7 +18,7 @@ class Button extends React.Component {
     render() {
         return (
             <div>
-                <button onClick = {this.addCounter}>Spam to give Peter power!</button>
+                <button class="btn btn-secondary btn-lg" onClick = {this.addCounter}>Spam to give Peter power!</button>
                 <p>Power level = {this.state.count}</p>
             </div>
         )
